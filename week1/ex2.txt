@@ -1,0 +1,96 @@
+    1  ls
+    2  cd ../
+    3  ls 
+    4  cd ../
+    5  ls 
+    6  cd ../
+    7  cd ~
+    8  ls 
+    9  cd var 
+   10  cd ../
+   11  ls 
+   12  cd ../
+   13  cd var 
+   14  ls 
+   15  cd ../
+   16  cd mnt/
+   17  ls 
+   18  cd c
+   19  ls 
+   20  cd ../
+   21  cd ~
+   22  cd /mnt
+   23  cd c
+   24  ls
+   25  cd 'Program Files'
+   26  cd ../
+   27  cd Users/alyol/week1
+   28  ls
+   29  gedit main.c
+   30  sudo apt install gedit
+   31  gedit main.c
+   32  sudo apt-get update 
+   33  gedit main.c
+   34  sudo apt install gedit
+   35  gedit main.c
+   36  nano main.c
+   37  ls 
+   38  gcc
+   39  sudo apt install gcc
+   40  gcc
+   41  gcc main.c -o ex4
+   42  rm main.c 
+   43  nano main.c 
+   44  ls
+   45  gcc main.c -o ex4
+   46  ls
+   47  ex4
+   48  ./ex4
+   49  cd ../
+   50  mkdir OS
+   51  npm init
+   52  git init
+   53  rm -rf .git
+   54  cd OS/
+   55  git init 
+   56  cd ../
+   57  mv week1/ OS/week1
+   58  sudo mv week1/ OS/week1
+   59  sudo mv week1/ OS/week1/
+   60  sudo mv week1/* OS/week1/*
+   61  sudo mv week1 OS/week1
+   62  cd ../
+   63  ls 
+   64  cd alyol/
+   65  cd week1/
+   66  ls 
+   67  mv ex1.txt ../OS/week1
+   68  mv ex2.txt ../OS/week1
+   69  mv ex3.txt ../OS/week1
+   70  mv ex3.sh ../OS/week1
+   71  mv ex4 ../OS/week1
+   72  mv main.c ../OS/week1
+   73  ls 
+   74  cd ../
+   75  cd OS
+   76  ls 
+   77  cd week1
+   78  cd week1/
+   79  gcc main.c -o ex4
+   80  ./ex4 
+   81  cd /usr/bin
+   82  ls 
+   83  man sort
+   84  ls gcc*
+   85  ls *gcc*
+   86  man sort 
+   87  ls *gcc* | sort -r > ex1.txt
+   88  sudo ls *gcc* | sort -r > ex1.txt
+   89  nano ex1.txt
+   90  ls 
+   91  sudo ls *gcc* | sort -r > /mnt/c/Users/alyol/OS/week1/ex1.txt
+   92  cd  /mnt/c/Users/alyol/OS/week1/ex1.txt
+   93  cd /mnt/c/Users/alyol/OS/week1/
+   94  ls 
+   95  nano ex1.txt 
+   96  history > ex2.txt
