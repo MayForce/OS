@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1535576104 source:c:\users\alyol\os\week2\ex3\main.c
+	<stdio.h>
+	<stdlib.h>
+
