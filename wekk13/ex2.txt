@@ -1,0 +1,10 @@
+Avoidanse
+Deadlock avoidance merely works to avoid deadlock; it does not totally prevent it.
+The basic idea is to allocate resources only if the resulting global state is a safe state.
+Since resource allocation is not done right away in some cases, deadlock avoidance algorithms also suffer from low resource utilization problem.
+Prevention
+Deadlock prevention algorithms ensure that at least one of the necessary conditions (Mutual exclusion, hold and wait, no preemption and circular wait) does not hold true. 
+However most prevention algorithms have poor resource utilization, and hence result in reduced throughputs.
+Recovery
+Traditional operating system doesn’t deal with deadlock recovery as it is time and space consuming process. 
+Real time operating systems use Deadlock recovery.
